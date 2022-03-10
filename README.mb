@@ -1,0 +1,9 @@
+# README
+
+##blogs
+
+| Column      |  Type  | Options  |
+| ----------- | ------ | -------- |
+| author_name | string | NOT NULL |
+| title       | string | NOT NULL |
+| text        | text   | NOT NULL |
