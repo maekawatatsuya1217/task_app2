@@ -26,10 +26,10 @@
         <?php foreach($blogs as $blog) : ?>
             <div>
                 <h3><?php echo $blog['title'] ?></h3>
-                <p>筆者　<?php echo $blog['outhor_name'] ?></p>
-                <a href="#">編集</a>
+                <p>筆者　<?php echo $blog['author_name'] ?></p>
+                <a href="">編集</a>
                 <a href="#">削除</a>
-            </div>
+            </div> 
         <?php endforeach ?>
         <!-- 一覧表示 -->
     </body>
