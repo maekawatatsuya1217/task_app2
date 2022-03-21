@@ -27,6 +27,7 @@
             <div>
                 <h3><?php echo $blog['title'] ?></h3>
                 <p>筆者　<?php echo $blog['author_name'] ?></p>
+                <a href="show.php?id=<?php echo $blog['id'] ?>">詳細</a>
                 <a href="edit.php?id=<?php echo $blog['id'] ?>">編集</a>
                 <a href="delete_confirm.php?id=<?php echo $blog['id'] ?>">削除</a>
             </div> 

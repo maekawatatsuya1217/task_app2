@@ -5,7 +5,7 @@
 
     if (!empty($_GET['id'])) {
         $stmt = $pdo->prepare("SELECT * FROM blogs WHERE id = :id"); //SQL作成
-        $stmt->bindValue( ':id', $_GET['id'], PDO::PARAM_INT); //値セット
+        $stmt->bindValue( ':id', $_GET['id'], PDO::PARAM_INT); //idセット
         $stmt->execute(); //実行
         $blog_data = $stmt->fetch();
         // データが取得できないときは戻る
